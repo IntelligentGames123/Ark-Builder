@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 400">
+  <!-- sky disc -->
+  <circle cx="240" cy="200" r="190" fill="#cfe4ff"/>
+  <!-- rainbow -->
+  <g fill="none" stroke-width="12">
+    <path d="M80 220 A160 160 0 0 1 400 220" stroke="#e63946"/>
+    <path d="M92 220 A148 148 0 0 1 388 220" stroke="#f4892a"/>
+    <path d="M104 220 A136 136 0 0 1 376 220" stroke="#f4c724"/>
+    <path d="M116 220 A124 124 0 0 1 364 220" stroke="#3fa34d"/>
+    <path d="M128 220 A112 112 0 0 1 352 220" stroke="#3a86ff"/>
+    <path d="M140 220 A100 100 0 0 1 340 220" stroke="#4b3f9e"/>
+    <path d="M152 220 A88 88 0 0 1 328 220" stroke="#9b5de5"/>
+  </g>
+  <!-- sun -->
+  <circle cx="390" cy="90" r="30" fill="#f4b324"/>
+  <!-- ark: hull with plank pattern -->
+  <path d="M70 250 H410 L380 310 H100 Z" fill="#8a5a2b"/>
+  <g stroke="#5c3a17" stroke-width="2" opacity=".55">
+    <line x1="78" y1="266" x2="402" y2="266"/>
+    <line x1="86" y1="282" x2="394" y2="282"/>
+    <line x1="94" y1="298" x2="386" y2="298"/>
+  </g>
+  <!-- cabin -->
+  <rect x="130" y="196" width="220" height="54" fill="#d39a5c"/>
+  <g fill="#b5793f">
+    <rect x="130" y="196" width="22" height="54"/><rect x="174" y="196" width="22" height="54"/>
+    <rect x="218" y="196" width="22" height="54"/><rect x="262" y="196" width="22" height="54"/>
+    <rect x="306" y="196" width="22" height="54"/>
+  </g>
+  <path d="M118 198 L240 160 L362 198 Z" fill="#6b4423"/>
+  <rect x="160" y="202" width="160" height="10" fill="#ffe9a8"/>
+  <rect x="226" y="222" width="28" height="28" rx="3" fill="#4a2c12"/>
+  <!-- animals peeking -->
+  <g>
+    <!-- giraffe -->
+    <rect x="300" y="128" width="8" height="40" fill="#f4c724"/>
+    <ellipse cx="310" cy="126" rx="12" ry="7" fill="#f4c724"/>
+    <circle cx="314" cy="124" r="1.8" fill="#14213d"/>
+    <circle cx="302" cy="136" r="2.5" fill="#c98a00"/><circle cx="305" cy="150" r="2.5" fill="#c98a00"/>
+    <!-- elephant -->
+    <circle cx="170" cy="186" r="16" fill="#9aa3b5"/>
+    <ellipse cx="156" cy="186" rx="8" ry="11" fill="#848da1"/>
+    <path d="M178 192 Q188 200 184 210" stroke="#9aa3b5" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <circle cx="174" cy="182" r="2" fill="#14213d"/>
+  </g>
+  <!-- measuring arrow: 300 cubits -->
+  <g stroke="#14213d" stroke-width="2.5" fill="#14213d">
+    <line x1="74" y1="336" x2="406" y2="336"/>
+    <path d="M70 336 l10 -6 v12z"/><path d="M410 336 l-10 -6 v12z"/>
+  </g>
+  <rect x="190" y="322" width="100" height="28" rx="14" fill="#14213d"/>
+  <text x="240" y="341" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="14" fill="#f4b324">300 cubits</text>
+  <!-- water -->
+  <path d="M30 312 Q70 298 110 312 T190 312 T270 312 T350 312 T450 312 V360 H30 Z" fill="#3a86ff" opacity=".55"/>
+</svg>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Thank you — Intelligent Games 4U</title>
+<meta name="robots" content="noindex">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<main class="section">
+  <div class="wrap" style="max-width:560px;text-align:center">
+    <img src="assets/logo.svg" alt="" width="72" height="72" style="margin:0 auto 16px">
+    <div class="result-stars">🎉</div>
+    <h1 style="font-size:2.2rem">Thank you!</h1>
+    <p class="sub">Your payment to Intelligent Games 4U Limited was received. <b>Level 3: Master Builder</b> is now unlocked on this device.</p>
+    <a class="btn" href="index.html#play">Back to the game</a>
+  </div>
+</main>
+<script>
+  // Paystack redirects here after payment (and appends ?reference=...).
+  try { localStorage.setItem('ig4u-unlocked', '1'); } catch (e) { /* storage unavailable */ }
+  setTimeout(function () { location.href = 'index.html#play'; }, 4000);
+</script>
+</body>
+</html>
